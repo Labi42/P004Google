@@ -9,16 +9,12 @@ body .dark {
 }
 
 header {
-    background-image: url("images/stažený\ soubor\ \(5\).png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1000px 100px;
+    background-color: green;
 }
 
 nav {
     padding: 10px;
-    padding-bottom: 100px;
-    margin: -10px 20px 50px 20px;
+    margin: 10px;
 }
 
 nav li {
@@ -34,8 +30,8 @@ nav a {
     text-decoration: none;
 }
 
-section {
-    color: rgb(255, 255, 255);
+.hlavni {
+    color: rgb(255, 255, 255);   
     background-color: blue;
     padding: 1px 10px 1px 10px;
     margin-bottom: 10px;
@@ -43,4 +39,19 @@ section {
 
 footer {
     background-color: red;
+}
+
+.historie {
+    background-color: aqua;
+    margin: 20px 100px 20px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("images/sipka.png");
+    background-size: 512px 700px;
+}
+
+.historie div {
+    background-color: rgb(221, 255, 0);
+    margin: 5px 400px 5px;
+    padding: 5px;
 }
