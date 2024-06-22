@@ -1,9 +1,9 @@
-body .light {
+.Light {
     color:black;
     background: white;
 }
 
-body .dark {
+.Dark {
     color: white;
     background: black;
 }
