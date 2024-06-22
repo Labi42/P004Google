@@ -55,3 +55,42 @@ footer {
     margin: 5px 400px 5px;
     padding: 5px;
 }
+
+.Pas {
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 150px;
+    display: flex; 
+    gap: 200px;
+}
+
+#Pas_2 {
+    position: relative;
+    bottom: 10px;
+}
+
+.Pas_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+
+.Pas_nazev {
+    background-size: 50px;
+    font-size: 30px;
+    background-color: red;
+    padding: 0px 2px 2px 2px;
+}
+
+.Pas_popis {
+    background-color: rgb(0, 128, 0);
+    padding: 10px;
+}
+
+.Pas_celek {
+    margin: 10px;
+}  
