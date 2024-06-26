@@ -145,3 +145,10 @@ footer {
     text-decoration: none;
     color: green;
 }
+
+.class_zdroje {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 400px;
+}
