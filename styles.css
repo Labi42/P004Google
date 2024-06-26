@@ -93,8 +93,55 @@ footer {
 
 .Pas_celek {
     margin: 10px;
+    width: 380px;
 }  
 
 #P_img {
     width: 1000px
+}
+
+.class_loga {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.class_loga img {
+    margin-left: 50px;
+}
+
+.class_loga p {
+    margin-left: 70px;
+}
+
+.class_loga .class_loga_posledni_text {
+    margin-bottom: 100px; 
+}
+
+.class_loga_ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+.class_loga_ul li {
+    display: inline-block;
+    margin: 15px 50px 50px 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: grey;
+}
+
+.class_loga_ul a {
+    text-decoration: none;
+    color: rgb(0, 85, 255);
+}
+
+.class_loga_ul a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.class_loga_ul a:active {
+    text-decoration: none;
+    color: green;
 }
